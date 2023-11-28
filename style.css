@@ -1,3 +1,29 @@
 *{
  box-sizing: border-box;
 }
+header{
+ display: flex;
+ position: relative;
+ flex-direction: row;
+ justify-content: space-evenly;
+ background-color: beige;
+ height: 60px;
+}
+
+.nav-btn{
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 400;
+ text-decoration: white;
+ font-style: normal;
+ padding-top: 15px;
+ gap: 10px;
+}
+
+
+.first-page-content{
+ max-height: 1000px;
+ background-color: blue;
+ position: relative;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+}
