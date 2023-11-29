@@ -25,5 +25,21 @@ header{
  background-color: blue;
  position: relative;
  display: grid;
- grid-template-columns: 2fr 1fr;
+ grid-template-columns: 1fr 1fr;
+ justify-content: center;
+ padding-top: 3px;
+ gap: 30%;
+ 
+}
+
+img{
+ width: 300px;
+ margin-left: 330px;
+ margin-top: 150px;
+ 
+}
+
+.name{
+ padding-top: 250px;
+ 
 }
